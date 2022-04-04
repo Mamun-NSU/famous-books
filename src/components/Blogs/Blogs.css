@@ -1,0 +1,11 @@
+.blog-container {}
+
+.single-blog {
+    margin-bottom: 10px;
+}
+
+.answare-keyword {
+    font-style: italic;
+    font-weight: bold;
+    margin-right: 5px;
+}
