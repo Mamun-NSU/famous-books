@@ -1,0 +1,9 @@
+
+.navber-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navber-element{
+   padding: 0px 10px;
+}
