@@ -1,5 +1,7 @@
-import React, { useEffect, useState } from "react";
-import { Bar, BarChart, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
+import React from "react";
+import useData from "../../hooks/useData";
+import MyBarChart from "../MyBarChart/MyBarChart";
+import MyLineChart from "../MyLineChart/MyLineChart";
 import "./Dashboard.css";
 
 const Dashboard = () => {
@@ -48,27 +50,11 @@ const Dashboard = () => {
     },
   ];
 
-  const [infos, setInfos] = useState([]);
-
-  useEffect(() => {
-    fetch('data.json')
-      .then(res => res.json())
-      .then(data => setInfos(data))
-  }, []);
+  const [infos, setInfos] = useData();
   return (
     <div>
-      <LineChart width={500} height={200} data={infos}>
-        {/* <Line dataKey={"investment"}></Line> */}
-        <Line dataKey={"sell"}> </Line>
-        <XAxis dataKey="month"></XAxis>
-        <Tooltip></Tooltip>
-        <YAxis></YAxis>
-      </LineChart>
-      <ResponsiveContainer width="100%" height="100%">
-        <BarChart width={150} height={40} data={data}>
-          <Bar dataKey="uv" fill="#8884d8" />
-        </BarChart>
-      </ResponsiveContainer>
+      <MyLineChart></MyLineChart>
+      <MyBarChart></MyBarChart>
     </div>
   );
 };
