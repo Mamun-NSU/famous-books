@@ -16,11 +16,11 @@ const MyBarChart = () => {
   const [infos, setInfos] = useData();
   return (
     <div>
-      <h1>This is BarChart </h1>
+      <h1>BarChart of investment and revenue against month</h1>
 
       <BarChart width={730} height={250} data={infos}>
         <CartesianGrid strokeDasharray="3 3" />
-        <XAxis dataKey="name" />
+        <XAxis dataKey="month" />
         <YAxis />
         <Tooltip />
         <Legend />

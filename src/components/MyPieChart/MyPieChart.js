@@ -7,21 +7,9 @@ import "./MyPieChart.css";
 const MyPieChart = () => {
   const [infos, setInfos] = useData();
 
-  //   useEffect(() => {
-  //     console.log(infos);
-  //   }, [infos]);
-
-  //   const [data, setData] = useState([]);
-  //   useEffect(() => {
-  //     fetch("data.json")
-  //       .then((res) => res.json())
-  //       .then((data) => setData(data));
-  //   }, [data]);
-
-  //   console.log(infos);
   return (
     <div>
-      <h1>This is PieChart </h1>
+      <h1>PieChart of investment and revenue against month</h1>
 
       <PieChart width={730} height={250}>
         <Pie
@@ -35,7 +23,7 @@ const MyPieChart = () => {
         />
         <Pie
           data={infos}
-          dataKey="revenue"
+          dataKey="investment"
           nameKey="month"
           cx="50%"
           cy="50%"

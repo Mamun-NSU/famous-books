@@ -11,6 +11,7 @@ function CustomLink({ children, to, ...props }) {
       <Link
         style={{
           color: match ? "green" : "black",
+          fontWeight: match ? "bold" : "normal",
           textDecoration: match ? "underline" : "none",
         }}
         to={to}

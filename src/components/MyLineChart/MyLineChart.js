@@ -14,7 +14,7 @@ const MyLineChart = () => {
   const [infos, setInfos] = useData();
   return (
     <div>
-        <h1>This is LineChart </h1>
+      <h1>LineChart of sell against month</h1>
       <LineChart width={500} height={200} data={infos}>
         {/* <Line dataKey={"investment"}></Line> */}
         <Line dataKey={"sell"}> </Line>
