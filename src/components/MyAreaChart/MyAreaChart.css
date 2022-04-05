@@ -1,0 +1,5 @@
+@media screen and (max-width: 767px) {
+    .area-chart {
+        width: 400px;
+    }
+}

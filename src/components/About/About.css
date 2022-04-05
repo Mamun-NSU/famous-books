@@ -1,0 +1,16 @@
+.about-container {
+    padding: auto;
+    text-align: center;
+}
+
+.about-container h1 {
+    color: green;
+}
+
+.about-container h3 {
+    color: blue;
+}
+
+.about-container h5 {
+    color: yellowgreen;
+}

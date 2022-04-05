@@ -15,7 +15,7 @@ import "./MyBarChart.css";
 const MyBarChart = () => {
   const [infos, setInfos] = useData();
   return (
-    <div>
+    <div className="bar-chart">
       <h1>BarChart of investment and revenue against month</h1>
 
       <BarChart width={730} height={250} data={infos}>

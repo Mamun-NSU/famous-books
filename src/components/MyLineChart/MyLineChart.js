@@ -13,7 +13,7 @@ import "./MyLineChart.css";
 const MyLineChart = () => {
   const [infos, setInfos] = useData();
   return (
-    <div>
+    <div className="line-chart">
       <h1>LineChart of sell against month</h1>
       <LineChart width={500} height={200} data={infos}>
         {/* <Line dataKey={"investment"}></Line> */}

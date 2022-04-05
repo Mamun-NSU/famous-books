@@ -16,7 +16,7 @@ import "./MyAreaChart.css";
 const MyAreaChart = () => {
   const [infos, setInfos] = useData();
   return (
-    <div>
+    <div className="area-chart">
       <h1>AreaChart of investment and revenue against month</h1>
       <AreaChart
         width={730}

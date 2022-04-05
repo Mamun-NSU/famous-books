@@ -5,7 +5,7 @@ Project Name: Book Reviews
 ### `Netlify Link:`
 
 Live server on Netlify Link: 
-[https://ball-shop-mamunphero.netlify.app/](https://ball-shop-mamunphero.netlify.app/)
+[https://book-reviews-mamunphero.netlify.app/](https://book-reviews-mamunphero.netlify.app/)
 
 
 ### `Github Link:`
@@ -14,8 +14,8 @@ Private Git Repo Link:
 [https://github.com/programming-hero-web-course-4/product-analysis-website-Mamun-NSU](https://github.com/programming-hero-web-course-4/product-analysis-website-Mamun-NSU)
 
 
-
-Markup : * Assignment No: 09
+### `Project details:`
+* Assignment No: 09
 	 * Site name: Book Reviews
 	 * Techknowlolg: React JS
 	 * Live server : Netlify

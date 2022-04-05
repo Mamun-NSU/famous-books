@@ -8,7 +8,7 @@ const MyPieChart = () => {
   const [infos, setInfos] = useData();
 
   return (
-    <div>
+    <div className="pie-chart">
       <h1>PieChart of investment and revenue against month</h1>
 
       <PieChart width={730} height={250}>
