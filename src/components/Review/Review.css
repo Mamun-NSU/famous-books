@@ -1,6 +1,9 @@
 .review {
-    height: 400px;
+    height: 450px;
     width: 300px;
+    padding: 10px;
+    border: 2px solid lightgrey;
+    border-radius: 5px;
 }
 
 .review img {
@@ -8,7 +11,9 @@
     width: 50px;
 
 }
-.user_name{
+
+.user_name,
+.rating,
+.book {
     font-weight: bold;
-  
 }

@@ -1,6 +1,42 @@
-
-.hero-container{
+.hero-container {
+    margin-top: 20px;
     height: 400px;
     display: grid;
     grid-template-columns: 3fr 1fr;
+
+}
+
+/* .hero-container {
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    justify-content: center;
+
+} */
+
+.text-container {
+    text-align: center;
+}
+
+.text-container h1 {
+    color: green;
+}
+
+.text-container h3 {
+    color: rgb(13, 13, 144);
+}
+
+.text-container button {
+    color: black;
+    padding: 10px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: green;
+
+}
+
+.image-container img {
+    height: 100%;
+    object-fit: cover;
+    padding-left: 50px;
 }
