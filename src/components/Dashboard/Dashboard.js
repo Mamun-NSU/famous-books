@@ -1,54 +1,75 @@
-import React from "react";
-import { Line, LineChart, Tooltip, XAxis, YAxis } from "recharts";
+import React, { useEffect, useState } from "react";
+import { Bar, BarChart, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import "./Dashboard.css";
 
 const Dashboard = () => {
   const data = [
     {
-      month: "Mar",
-      investment: 100000,
-      sell: 241,
-      revenue: 10401,
+      name: 'Page A',
+      uv: 4000,
+      pv: 2400,
+      amt: 2400,
     },
     {
-      month: "Apr",
-      investment: 200000,
-      sell: 423,
-      revenue: 24500,
+      name: 'Page B',
+      uv: 3000,
+      pv: 1398,
+      amt: 2210,
     },
     {
-      month: "May",
-      investment: 500000,
-      sell: 726,
-      revenue: 67010,
+      name: 'Page C',
+      uv: 2000,
+      pv: 9800,
+      amt: 2290,
     },
     {
-      month: "Jun",
-      investment: 500000,
-      sell: 529,
-      revenue: 40405,
+      name: 'Page D',
+      uv: 2780,
+      pv: 3908,
+      amt: 2000,
     },
     {
-      month: "Jul",
-      investment: 600000,
-      sell: 601,
-      revenue: 50900,
+      name: 'Page E',
+      uv: 1890,
+      pv: 4800,
+      amt: 2181,
     },
     {
-      month: "Aug",
-      investment: 700000,
-      sell: 670,
-      revenue: 61000,
+      name: 'Page F',
+      uv: 2390,
+      pv: 3800,
+      amt: 2500,
+    },
+    {
+      name: 'Page G',
+      uv: 3490,
+      pv: 4300,
+      amt: 2100,
     },
   ];
+
+  const [infos, setInfos] = useState([]);
+
+  useEffect(() => {
+    fetch('data.json')
+      .then(res => res.json())
+      .then(data => setInfos(data))
+  }, []);
   return (
-    <LineChart width={400} height={500} data={data}>
-      <Line dataKey={"investment"}></Line>
-      <Line dataKey={"revenue"}> </Line>
-      <XAxis dataKey="month"></XAxis>
-      <Tooltip></Tooltip>
-      <YAxis></YAxis>
-    </LineChart>
+    <div>
+      <LineChart width={500} height={200} data={infos}>
+        {/* <Line dataKey={"investment"}></Line> */}
+        <Line dataKey={"sell"}> </Line>
+        <XAxis dataKey="month"></XAxis>
+        <Tooltip></Tooltip>
+        <YAxis></YAxis>
+      </LineChart>
+      <ResponsiveContainer width="100%" height="100%">
+        <BarChart width={150} height={40} data={data}>
+          <Bar dataKey="uv" fill="#8884d8" />
+        </BarChart>
+      </ResponsiveContainer>
+    </div>
   );
 };
 

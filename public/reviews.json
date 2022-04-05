@@ -1,0 +1,56 @@
+[
+    {
+        "id": "1",
+        "user_name": "Lyndsey",
+        "user_image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg",
+        "book": "1984",
+        "writer": "George Orwell",
+        "review": "This book is like the dystopian Lord of the Rings, with its richly developed culture and economics, not to mention a fully developed language called Newspeak, or rather more of the anti-language, whose purpose is to limit speech and understanding instead of to enhance and expand it. The world-building is so fully fleshed out and spine-tinglingly terrifying that it's almost as if George travelled to such a place, escaped from it, and then just wrote it all down.",
+        "rating": 5
+    },
+    {
+        "id": "2",
+        "user_name": "Emily W. Thompson",
+        "user_image": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg",
+        "book": "The Crossing on Reedsy Discovery",
+        "writer": "Michael Doane",
+        "review": "In Doane’s debut novel, a young man embarks on a journey of self-discovery with surprising results.An unnamed protagonist (The Narrator) is dealing with heartbreak. His love, determined to see the world, sets out for Portland, Oregon. But he’s a small-town boy who hasn’t traveled much. So, the Narrator mourns her loss and hides from life, throwing himself into rehabbing an old motorcycle. Until one day, he takes a leap; he packs his bike and a few belongings and heads out to find the Girl.",
+        "rating": 5
+    },
+    {
+        "id": "3",
+        "user_name": "The Book Smugglers",
+        "user_image": "https://images.pexels.com/photos/2253415/pexels-photo-2253415.jpeg",
+        "book": "The Care and Feeding of Ravenously Hungry Girls",
+        "writer": "Anissa Gray",
+        "review": "I am still dipping my toes into the literally fiction pool, finding what works for me and what doesn’t. Books like The Care and Feeding of Ravenously Hungry Girls by Anissa Gray are definitely my cup of tea.Althea and Proctor Cochran had been pillars of their economically disadvantaged community for years – with their local",
+        "rating": 5
+    },
+    {
+        "id": "4",
+        "user_name": "The Book Hookup",
+        "user_image": "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg",
+        "book": "The Hate U Give",
+        "writer": "gie Thomas",
+        "review": "5 stars! I can’t imagine how challenging it would be to tackle the voice of a movement like Black Lives Matter, but I do know that Thomas did it with a finesse only a talented author like herself possibly could. With an unapologetically realistic delivery packed with emotion, The Hate U Give is a crucially important portrayal of the difficulties minorities face in our country every single day.",
+        "rating": 5
+    },
+    {
+        "id": "5",
+        "user_name": "James",
+        "user_image": "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg",
+        "book": "Goodnight, Moon on Goodreads",
+        "writer": "Margaret Wise Brown",
+        "review": "Goodnight Moon by Margaret Wise Brown is one of the books that followers of my blog voted as a must-read for our Children's Book August 2018 Readathon. Come check it out and join the next few weeks!",
+        "rating": 5
+    },
+    {
+        "id": "6",
+        "user_name": "Karlyn P ",
+        "user_image": "https://images.pexels.com/photos/322920/pexels-photo-322920.jpeg",
+        "book": "Dark Witch",
+        "writer": "Nora Roberts",
+        "review": "4 stars. Great world-building, weak romance, but still worth the read.I hesitate to describe this book as a 'romance' novel simply because the book spent little time actually exploring the romance between Iona and Boyle. Sure, there IS a romance in this novel. Sprinkled throughout the book are a few scenes where Iona and Boyle meet, chat, wink at each, flirt some more, sleep together, have a misunderstanding, make up, and then profess their undying love. Very formulaic stuff, and all woven around the more important parts of this book.",
+        "rating": 4
+    }
+]
