@@ -47,7 +47,7 @@ const Blogs = () => {
           only takes up as much width as necessary. So, there will be only one
           line for block elements within the space width, on the other hand in a
           single line mamy inline elements can sit one after anither. Inline
-          elements don’t start from a new line and don’t have top and bottom
+          elements do not start from a new line and do not have top and bottom
           margins. But block elements start with a new line and it have top and
           bottom margin. So, browsers automatically add some margin before and
           after of a block elements and inline elements remains as their own
