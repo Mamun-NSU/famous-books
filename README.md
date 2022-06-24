@@ -20,8 +20,7 @@ Git Repo Link:
 	 - Live server : Netlify
 	 - Build on: GitHub Private Repository
 	 - Course Name: Programming Hero
-	 - Batch: 05
-	 - Submission date: 4th April, 2022
+	 
 
 
 	 
