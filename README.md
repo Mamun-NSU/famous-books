@@ -21,6 +21,14 @@ Git Repo Link:
 	 - Build on: GitHub Private Repository
 	 - Course Name: Programming Hero
 	 
+- Techknowlogies:
+    - Google Firebase
+    - NodeJs
+    - GitHub
+    - React Router Dom
+    
+    	 
+
 
 
 	 
