@@ -1,6 +1,5 @@
 import React from "react";
 import "./Blogs.css";
-// Here some questions and their Answer
 const Blogs = () => {
   return (
     <div class="blog-container">
