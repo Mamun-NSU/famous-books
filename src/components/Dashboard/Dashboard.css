@@ -4,14 +4,14 @@
     grid-gap: 10px;
 }
 
-/* This is for big devices?\ */
+
 @media screen and (max-width: 1100px) {
     .dashboard-container {
         grid-template-columns: repeat(1, 1fr);
     }
 }
 
-/* this is for medium devices */
+
 @media screen and (max-width: 767px) {
     .dashboard-container {
         grid-template-columns: repeat(1, 1fr);
